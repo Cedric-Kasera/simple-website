@@ -10,7 +10,7 @@ const Footer = () => {
                     <h1 className="font-bold text-6xl">AXIS</h1>
                 </div>
 
-                <div className="flex gap-48">
+                <div className="flex gap-48 pr-4">
                     <div>
                         <h1 className="font-bold text-xl text-[#0B1215] underline underline-offset-2">Quick Links:</h1>
                         <ul>
