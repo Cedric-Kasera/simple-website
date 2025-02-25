@@ -1,5 +1,7 @@
 import React from 'react';
-
+import juma from '../assets/juma.jpeg';
+import image2 from '../assets/kasera.jpeg';
+import image3 from '../assets/together.jpeg';
 const Gallery = () => (
   <section id="gallery" className="bg-gray-100 py-16 px-6 sm:px-16">
     <div className="container mx-auto text-center">
@@ -7,22 +9,22 @@ const Gallery = () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <img
-            src="https://via.placeholder.com/300"
+            src={juma}
             alt="Gallery Image 1"
             className="w-full h-64 object-cover"
           />
         </div>
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <img
-            src="https://via.placeholder.com/300"
+            src={image3}
             alt="Gallery Image 2"
             className="w-full h-64 object-cover"
           />
         </div>
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <img
-            src="https://via.placeholder.com/300"
-            alt="Gallery Image 3"
+            src={image2}
+            alt="Gallery Image "
             className="w-full h-64 object-cover"
           />
         </div>
