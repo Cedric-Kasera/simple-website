@@ -7,16 +7,16 @@ const Contact = () => (
       <form className="max-w-md mx-auto space-y-6">
         <input
           type="text"
-          placeholder="Your Name"
+          placeholder="Enter Name"
           className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <input
           type="email"
-          placeholder="Your Email"
+          placeholder="Enter Email"
           className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <textarea
-          placeholder="Your Message"
+          placeholder="Enter  Message"
           className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
           rows="4"
         ></textarea>
@@ -24,7 +24,7 @@ const Contact = () => (
           type="submit"
           className="w-full bg-white text-blue-500 py-3 rounded-full text-lg"
         >
-          Send Message
+          Send  Message
         </button>
       </form>
     </div>
