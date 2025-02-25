@@ -2,6 +2,7 @@ import React from 'react';
 import juma from '../assets/juma.jpeg';
 import image2 from '../assets/kasera.jpeg';
 import image3 from '../assets/together.jpeg';
+
 const Gallery = () => (
   <section id="gallery" className="bg-gray-100 py-16 px-6 sm:px-16">
     <div className="container mx-auto text-center">
@@ -11,21 +12,21 @@ const Gallery = () => (
           <img
             src={juma}
             alt="Gallery Image 1"
-            className="w-full h-64 object-cover"
+            className="w-full h-auto aspect-video object-contain"
           />
         </div>
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <img
             src={image3}
             alt="Gallery Image 2"
-            className="w-full h-64 object-cover"
+            className="w-full h-auto aspect-video object-contain"
           />
         </div>
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <img
             src={image2}
-            alt="Gallery Image "
-            className="w-full h-64 object-cover"
+            alt="Gallery Image 3"
+            className="w-full h-auto aspect-video object-contain"
           />
         </div>
       </div>
